@@ -5,7 +5,7 @@ body{
 
 .header{
   display:flex;
-  align-items:center;
+  align-items:left;
   background:rgb(199, 224, 207);
   padding:8px 5px;
   color:rgb(226, 10, 10);
@@ -63,13 +63,13 @@ body {
 
 /* IMAGE */
 .product-image img {
-  width: 100%;
+  width: 250%;
   border-radius: 10px;
 }
 
 /* DETAILS */
 .product-details h1 {
-  font-size: 18px;
+  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -80,8 +80,8 @@ body {
 }
 
 .description {
-  font-size: 14px;
-  color: gray;
+  font-size: 20px;
+  color: black;
   margin: 10px 0;
 }
 
