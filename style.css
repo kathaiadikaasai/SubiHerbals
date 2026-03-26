@@ -12,7 +12,7 @@ body{
   gap:20px;
 }
 .logo img{
-  width:199px;
+  width:150px;
 }.search{
   display:flex;
   flex:1;
@@ -64,7 +64,7 @@ body {
 /* IMAGE */
 .product-image img {
   width: 250%;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 /* DETAILS */
