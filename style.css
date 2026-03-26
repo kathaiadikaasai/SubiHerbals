@@ -47,55 +47,65 @@ body {
 
 /* MAIN PRODUCT SECTION */
 .product-section {
-  display: flex;              /* THIS is the key */
-  align-items: center;
-  gap: 40px;
+  display: flex;
+  justify-content: center;
   padding: 40px;
-  background: #f9eeee;
-  border-radius: 15px;
 }
 
+.product-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
 
-/* LEFT IMAGE */
+/* IMAGE */
 .product-image img {
-  width: 800px;
-  border-radius: 100px;
+  width: 100%;
+  border-radius: 10px;
 }
 
-/* RIGHT DETAILS */
+/* DETAILS */
 .product-details h1 {
-  font-size: 50px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin: 10px 0;
 }
 
 .price {
-  font-size: 50px;
-  color: green;
-  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
 }
 
 .description {
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
 }
 
 /* BUTTONS */
-.buttons button {
-  padding: 12px 20px;
-  margin-right: 10px;
+.buttons {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 15px;
   border: none;
+  border-radius: 20px;
+  margin: 5px;
   cursor: pointer;
-  font-size: 20px;
-  border-radius: 5px;
 }
 
 .buy {
-  background: #28a745;
+  background: green;
   color: white;
 }
 
 .cart {
-  background: #ffc107;
+  background: orange;
+  color: white;
 }
 .footer {
   background: #1f2933;
