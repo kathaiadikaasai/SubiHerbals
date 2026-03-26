@@ -63,8 +63,8 @@ body {
 
 /* IMAGE */
 .product-image img {
-  width: 300%;
-  border-radius: 10px;
+  width: 250%;
+  border-radius: 30px;
 }
 
 /* DETAILS */
